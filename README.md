@@ -61,8 +61,10 @@ minishell$ echo $?
 0
 
 minishell$ exit
+```
 
 Compilation:
+```sh
 make
 ./minishell
 
@@ -70,6 +72,6 @@ Nettoyage:
 make clean
 make fclean
 make re
-
+```
 
 minishell$ exit
