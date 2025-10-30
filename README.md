@@ -49,19 +49,6 @@ Il permet l’exécution de commandes interactives avec gestion des processus, p
 
 ---
 
-## 🧩 Architecture technique
-
-*(Adapter avec le nom de tes fichiers réels)*
-
-- **Lexer** → découpe l’entrée utilisateur en tokens
-- **Parser** → création d’un arbre d’exécution
-- **Executor** → exécute commandes + pipes + redirections
-- **Environment** → copie/gestion de `envp`
-- **Signals** → gestion asynchrone propre
-- **Builtins** → intégrés au shell sans fork si nécessaire
-
----
-
 ## 📎 Exemple d’utilisation
 
 ```sh
